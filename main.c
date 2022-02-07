@@ -1,3 +1,4 @@
+#include "headers/bitmasks.h"
 #include "headers/static.h"
 #include "headers/pointer.h"
 #include "headers/recursion.h"
@@ -17,5 +18,6 @@ int main() {
     show_union_values();
     pointer_arithmetics();
     function_pointer();
+    show_bitmasks();
     return 0;
 }
